@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background: rgb(221, 221, 221);
+    font-family:Arial;
+}
+
+header{
+    background-image: url(/images/header2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 90px 0;
+    text-align: center;
+    box-shadow: 2px 2px 10px #000;
+    color: rgb(255, 115, 0);
+    text-shadow: 2px 2px 10px #f00;
+}
+
+#sign_up{
+    font-size: 20px;
+    margin-left: 70%;
+    padding: 5px 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px #000;
+}
+
+button{
+    background-color: rgb(172, 255, 179);
+}
+
+button a{
+    text-decoration: none;
+}
+
+button a:hover{
+    color: #f00;
+}
+
+button a:active{
+    color: #000;
+    cursor: cell;
+}
+
+.company_name{
+    font-size: 50px; 
+}
+
+.slogan{
+    font-weight: 700px;  
+}
+
+nav{
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+    border-radius: 10px;
+    width: 80%;
+    margin:50px auto;
+    text-align: center;
+}
+#nav-item{
+    background-color: rgb(173, 173, 173);
+    border-radius: 20px;
+}
+
+.nav-item{
+    display: inline-block;
+}
+
+.nav-link{
+    display: inline-block;
+    padding: 20px 40px;
+    text-decoration: none;
+    color:rgb(0, 0, 0 .8);
+    text-transform: uppercase;
+    transition: background-color 1s;
+    border-radius: 20px;
+}
+
+.nav-link:hover{
+    background-color: rgb(102, 156, 114);
+    cursor:cell;
+    border-radius: 20px;
+    color: red;
+    box-shadow: 3px 3px 10px #000;
+    transition: 1s;
+}
+
+.nav-link:active{
+    border: 1px solid #555;
+    border-radius: 20px;
+    color:#0ff;
+    cursor:move;
+}
+
+/* Bu yerdan boshlab taomlar hhaqida malumotlar boshlangan */
+#nav1{
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+    border-radius: 10px;
+    width: 80%;
+    margin:50px auto;
+    text-align: center;
+}
+
+.nav-item{
+    display: inline-block;
+}
+
+.nav-link{
+    display: inline-block;
+    padding: 20px 40px;
+    text-decoration: none;
+    color:rgb(0, 0, 0 .8);
+    text-transform: uppercase;
+    transition: background-color 1s;
+    border-radius: 20px;
+}
+
+.nav-link:hover{
+    background-color: rgb(179, 179, 179);
+    cursor:cell;
+    border-radius: 20px;
+    color: red;
+    box-shadow: 3px 3px 10px #000;
+    transition: 1s;
+}
+
+.nav-link:active{
+    border: 1px solid #555;
+    border-radius: 20px;
+    color:#0ff;
+    cursor:move;
+}
+
+.dishes{
+    text-align: center;
+}
+
+.recipes-list{
+    width: 80%;
+    margin: 0 auto;
+}
+
+ .recipe-item{
+    width: 25%;
+    height: 50px;
+    margin: 10px 2.5%;
+    /* margin-bottom: 20px; */
+    /* border: 1px solid black; */
+    display: inline-block;
+} 
+
+.recipe-img{
+    margin: 30px;
+    padding: 5px;
+    padding-bottom: 70px;
+    width: 100%;
+    height: 500%;
+    box-shadow: 3px 3px 10px #000;
+    /* border: 2px solid red; */
+    /* display: inline-block; */
+}
+
+.rasm_tarifi1{
+    margin-top: -400px;
+    margin-left: 240px;
+}
+
+.rasm_tarifi2{
+    margin-top: -20px;
+    margin-left: 570px;
+}
+
+.rasm_tarifi3{
+    margin-top: -20px;
+    margin-left: 900px;
+}
+
+.rasm_tarifi4{
+    margin-top: 310px;
+    margin-left: 230px;
+}
+
+.rasm_tarifi5{
+    margin-top: -20px;
+    margin-left: 570px;
+}
+
+.rasm_tarifi6{
+    margin-top: -20px;
+    margin-left: 900px;
+}
+
+p a{
+    text-decoration: none;
+}
+
+p a:hover{
+    color: #f00;
+}
+
+/* Bu yerdan boshlab Tizimga kirish jarayoni boshlangan */
+#email{
+    margin-top: 30px;
+    margin-left: 33%;
+    font-size: 20px;
+    width: 400px;
+    box-shadow: 3px 3px 15px rgb(185, 255, 255);
+    padding: 3px;
+    border: 1px solid #555;
+    background-color: rgb(254, 255, 190);
+}
+
+#password{
+    margin-left: 33%;
+    font-size: 20px;
+    width: 400px;
+    box-shadow: 3px 3px 15px rgb(185, 255, 255);
+    padding: 3px;
+    border: 1px solid #555;
+    background-color: rgb(254, 255, 190);
+}
+
+#submit_btn{
+    margin-top: 10px;
+    margin-left: 43%;
+    font-size: 20px;
+    box-shadow: 3px 3px 15px rgb(185,255,255);
+    padding: 3px 30px;
+    border: 1px solid #555;
+}
+
+#submit_btn:hover{
+    cursor:all-scroll;
+    color: #f00;
+}
+
+#submit_btn:active{
+    cursor:cell;
+    background-color: #000;
+    color: #0ff;
+}
+
+/* Bu yerdan boshlab footre qismi boshlangan Email ham buni ichida */
+footer{
+    color: #fff;
+    margin-top: 100px;
+    background-color: #555;
+    box-shadow: 3px 3px 15px #000;
+}
+
+.footre_ustun{
+    width: 80%;
+}
+
+.footre-ustun{
+    width: 22%;
+    display:inline-block;
+    margin: 30px;
+    padding: 20px;
+    border: 0.5px solid rgb(163, 163, 163);
+    box-shadow: 1px 1px 3px rgb(197, 197, 197);
+    background-color: rgb(109, 109, 109);
+    margin-left: 80px;
+}
+
+.footer_ustun1{
+    color: #fff;
+}
+
+.footre_number{
+    color: aqua;
+    text-decoration: none;
+}
+
+.footer_li_img{
+    width: 30px; 
+    margin: 10px 2.5%;
+    border-radius: 27px;
+}
+
+.footer_li_img:hover{
+    width: 35px;
+    transition: 0.6s;
+    border-radius: 25px;
+}

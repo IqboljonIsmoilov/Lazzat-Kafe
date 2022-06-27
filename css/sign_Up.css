@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background: rgb(221, 221, 221);
+    font-family:Arial;  
+}
+
+#sign_up{
+    font-size: 20px;
+    margin-left: 70%;
+    padding: 5px 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px #000;
+}
+
+button a{
+    text-decoration: none;
+}
+
+button a:hover{
+    color: #f00;
+}
+
+button a:active{
+    color: #000;
+    cursor: cell;
+}
+
+.company_name{
+    font-size: 50px; 
+}
+
+.slogan{
+    font-weight: 700px;  
+}
+
+nav{
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+    border-radius: 20px;
+    width: 80%;
+    margin:50px auto;
+    text-align: center;
+}
+
+.nav-item{
+    display: inline-block;
+}
+
+.nav-link{
+    display: inline-block;
+    padding: 20px 40px;
+    text-decoration: none;
+    color:rgb(0, 0, 0 .8);
+    text-transform: uppercase;
+    transition: background-color 1s;
+    border-radius: 20px;
+}
+
+.nav-link:hover{
+    background-color: rgb(122, 124, 123);
+    cursor:cell;
+    border-radius: 20px;
+    color: red;
+    box-shadow: 3px 3px 10px #000;
+}
+
+.nav-link:active{
+    border: 1px solid #555;
+    border-radius: 20px;
+    color:#0ff;
+    cursor:move;
+}
+
+.div1{
+    border: 2px solid #009;
+    width: 380px;
+    height: 410px;
+    margin: 9% 35%;
+    background-color: rgb(218, 238, 216);
+    padding: 15px;
+    box-shadow: 3px 3px 30px#000;
+}
+
+h2{
+    text-align:center;
+}
+
+#name{
+    font-size: 20px;
+    width: 340px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#email{
+    font-size: 20px;
+    width: 340px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#password{
+    font-size: 20px;
+    width: 340px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.enter{
+    border: 1px solid #009;
+    font-size: 20px;
+    font-weight:initial;
+    width: 350px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #e7a3a3;
+}
+
+#NEP{
+    font-size: 20px;
+    padding: 5px;
+}
